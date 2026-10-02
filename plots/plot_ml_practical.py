@@ -75,7 +75,7 @@ def band(ax, ref, label=True):
     mean, lo, hi = ref
     ax.axhspan(lo, hi, color=C_GREY, alpha=0.22, lw=0)
     ax.axhline(mean, color=C_GREY, lw=0.9, ls='--',
-               label=f'noise level ({mean:.2f})' if label else None)
+               label=f'noise reference ({mean:.2f})' if label else None)
 
 
 def panel_similarity(ax, oof, ref):
