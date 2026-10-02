@@ -50,7 +50,7 @@ def panel_learning(ax, ref):
     lc = pd.read_csv(METRICS / 'learning_curve.csv')
     mean, lo, hi = ref
     ax.axhspan(lo, hi, color=C_GREY, alpha=0.22, lw=0)
-    ax.axhline(mean, color=C_GREY, lw=0.9, ls='--', label=f'noise level ({mean:.2f})')
+    ax.axhline(mean, color=C_GREY, lw=0.9, ls='--', label=f'noise reference ({mean:.2f})')
     for split, color, marker in [('DOI', C_MAIN, 'o'), ('SMILES', C_ACC, 's')]:
         per_fold = lc[lc['split'].eq(split)].groupby(['target', 'fold'], sort=False) \
             .agg(n=('n_train', 'mean'), mae=('mae', 'mean')).reset_index()
