@@ -1,0 +1,53 @@
+feature,type,group
+rdkit_MolWt,numeric,ligands: descriptors
+rdkit_NumHeteroatoms,numeric,ligands: descriptors
+rdkit_MolLogP,numeric,ligands: descriptors
+rdkit_TPSA,numeric,ligands: descriptors
+rdkit_NumHAcceptors,numeric,ligands: descriptors
+rdkit_NumHDonors,numeric,ligands: descriptors
+rdkit_NumRotatableBonds,numeric,ligands: descriptors
+rdkit_RingCount,numeric,ligands: descriptors
+rdkit_NumAromaticRings,numeric,ligands: descriptors
+rdkit_FractionCSP3,numeric,ligands: descriptors
+rdkit_BertzCT,numeric,ligands: descriptors
+rdkit_MaxEStateIndex,numeric,ligands: descriptors
+rdkit_MinEStateIndex,numeric,ligands: descriptors
+rdkit_fr_benzene,numeric,ligands: descriptors
+rdkit_fr_pyridine,numeric,ligands: descriptors
+rdkit_fr_Ar_NH,numeric,ligands: descriptors
+rdkit_fr_amide,numeric,ligands: descriptors
+rdkit_fr_COO,numeric,ligands: descriptors
+rdkit_fr_ether,numeric,ligands: descriptors
+metal_oxidation_state_mean,numeric,metal
+complex_charge_numeric,numeric,ion pair
+halide_conc_present,numeric,conditions
+halide_conc_mM_value,numeric,conditions
+cosolvent_present,numeric,conditions
+counterion_n_fragments,numeric,ion pair
+counterion_abs_charge_sum,numeric,ion pair
+counterion_MW,numeric,ion pair
+counterion_TPSA,numeric,ion pair
+counterion_MolLogP,numeric,ion pair
+counterion_count_C,numeric,ion pair
+counterion_count_N,numeric,ion pair
+counterion_count_F,numeric,ion pair
+counterion_count_P,numeric,ion pair
+counterion_count_S,numeric,ion pair
+counterion_count_Cl,numeric,ion pair
+coordination_number_mean,numeric,coordination
+donor_bonds_N,numeric,coordination
+donor_bonds_O,numeric,coordination
+donor_bonds_S,numeric,coordination
+donor_bonds_P,numeric,coordination
+donor_bonds_Cl,numeric,coordination
+donor_bonds_C,numeric,coordination
+donor_bonds_other,numeric,coordination
+n_bridging_donor_atoms,numeric,coordination
+n_metal_metal_bonds,numeric,coordination
+metal_group_mean,numeric,metal
+metal_period_mean,numeric,metal
+metal_d_electrons_mean,numeric,metal
+n_metal_centers,numeric,metal
+heterometallic,numeric,metal
+halide_type_group,categorical,conditions
+buffer_class_group,categorical,conditions
