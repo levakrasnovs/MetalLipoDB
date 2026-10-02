@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+# downloaded or not public
+data/SangsterLogP.csv
+data/MetalCytoToxDB.csv
+data/MetalLipoDB_LogP_IC50_harmonised.csv
+# regenerated
+figures/*
+!figures/tsne/
+figures/tsne/*
+!figures/tsne/embedding_and_clusters.csv
+train/data/MetalLipoDB_modeling.csv
+train/results/figures/
+train/results/*.log
+train/results/chemeleon_embeddings/
+train/results/_chemprop_checkpoints/

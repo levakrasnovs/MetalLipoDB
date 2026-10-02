@@ -1,0 +1,116 @@
+record_id_v1.0,record_id,action,doi,abbreviation,value,reason
+MLDB-004277,MLDB-004252,smiles_complex: [Cl-]->[Au+]<-[P]12CN3CN(C[N+](Cc4ccccc4)(C3)C1)C2 -> COC(=O)C[N+]12CN3CN(C1)C[P](->[Au+]<-[Br-])(C3)C2,10.1002/ejic.201201411,4b,-0.34,structure of 5a entered for 4b
+MLDB-004277,MLDB-004252,smiles_ligands: [Cl-].c1ccc(C[N+]23CN4CN(CP(C4)C2)C3)cc1 -> COC(=O)C[N+]12CN3CN(CP(C3)C1)C2.[Br-],10.1002/ejic.201201411,4b,-0.34,structure of 5a entered for 4b
+MLDB-004277,MLDB-004252,counterion: [Cl-] -> [Br-],10.1002/ejic.201201411,4b,-0.34,structure of 5a entered for 4b
+MLDB-004278,MLDB-004253,smiles_complex: COC(=O)C[N+]12CN3CN(C1)C[P](->[Au+]<-[Br-])(C3)C2 -> [Cl-]->[Au+]<-[P]12CN3CN(C[N+](Cc4ccccc4)(C3)C1)C2,10.1002/ejic.201201411,5a,-0.39,structure of 4b entered for 5a
+MLDB-004278,MLDB-004253,smiles_ligands: COC(=O)C[N+]12CN3CN(CP(C3)C1)C2.[Br-] -> [Cl-].c1ccc(C[N+]23CN4CN(CP(C4)C2)C3)cc1,10.1002/ejic.201201411,5a,-0.39,structure of 4b entered for 5a
+MLDB-004278,MLDB-004253,counterion: [Br-] -> [Cl-],10.1002/ejic.201201411,5a,-0.39,structure of 4b entered for 5a
+MLDB-002020,MLDB-002011,abbreviation_in_the_article: [Pt(O2C2H5)4(dach)] -> [Pt(O2CC2H5)4(dach)],10.1021/jm9904250,[Pt(O2C2H5)4(dach)],0.18,abbreviation as printed in the paper
+MLDB-002021,MLDB-002012,abbreviation_in_the_article: [Pt(O2C2H7)4(dach)] -> [Pt(O2CC3H7)4(dach)],10.1021/jm9904250,[Pt(O2C2H7)4(dach)],1.54,abbreviation as printed in the paper
+MLDB-002022,MLDB-002013,abbreviation_in_the_article: [Pt(O2C4H9)4(dach)] -> [Pt(O2CC4H9)4(dach)],10.1021/jm9904250,[Pt(O2C4H9)4(dach)],2.54,abbreviation as printed in the paper
+MLDB-002023,MLDB-002014,abbreviation_in_the_article: [Pt(O2C5H11)4(dach)] -> [Pt(O2CC5H11)4(dach)],10.1021/jm9904250,[Pt(O2C5H11)4(dach)],3.03,abbreviation as printed in the paper
+MLDB-001549,MLDB-001544,smiles_complex: O=C1[O-]->[Pt+4]2(<-[OH-])(<-[NH2][C@H]3CCCC[C@@H]3[NH2]->2)(<-[O-]C1=O)<-[O-]C(=O)C(Cl)Cl -> O=C1[O-]->[Pt+4]2(<-[OH-])(<-[NH2][C@@H]3CCCC[C@H]3[NH2]->2)(<-[O-]C1=O)<-[O-]C(=O)C(Cl)Cl,10.1016/j.jinorgbio.2015.12.003,[Pt(dach)(DCA)(OH)(ox)],-1.17,"S,S-dach entered for R,R-dach"
+MLDB-001549,MLDB-001544,smiles_ligands: N[C@H]1CCCC[C@@H]1N.O=C([O-])C(=O)[O-].O=C([O-])C(Cl)Cl.[OH-] -> N[C@@H]1CCCC[C@H]1N.O=C([O-])C(=O)[O-].O=C([O-])C(Cl)Cl.[OH-],10.1016/j.jinorgbio.2015.12.003,[Pt(dach)(DCA)(OH)(ox)],-1.17,"S,S-dach entered for R,R-dach"
+MLDB-001550,MLDB-001545,smiles_complex: O=C1[O-]->[Pt+4]2(<-[NH2][C@H]3CCCC[C@@H]3[NH2]->2)(<-[O-]C1=O)(<-[O-]C(=O)C(Cl)Cl)<-[O-]C(=O)C(Cl)Cl -> O=C1[O-]->[Pt+4]2(<-[NH2][C@@H]3CCCC[C@H]3[NH2]->2)(<-[O-]C1=O)(<-[O-]C(=O)C(Cl)Cl)<-[O-]C(=O)C(Cl)Cl,10.1016/j.jinorgbio.2015.12.003,[Pt(dach)(DCA)2(ox)],-0.35,"S,S-dach entered for R,R-dach"
+MLDB-001550,MLDB-001545,smiles_ligands: N[C@H]1CCCC[C@@H]1N.O=C([O-])C(=O)[O-].O=C([O-])C(Cl)Cl.O=C([O-])C(Cl)Cl -> N[C@@H]1CCCC[C@H]1N.O=C([O-])C(=O)[O-].O=C([O-])C(Cl)Cl.O=C([O-])C(Cl)Cl,10.1016/j.jinorgbio.2015.12.003,[Pt(dach)(DCA)2(ox)],-0.35,"S,S-dach entered for R,R-dach"
+MLDB-000569,MLDB-000566,aqueous_phase: water -> PBS,10.1016/j.jinorgbio.2025.113198,Ir-FA,0.59,"medium is PBS per the method, not water"
+MLDB-000569,MLDB-000566,medium_class: water -> buffer + salt,10.1016/j.jinorgbio.2025.113198,Ir-FA,0.59,"medium is PBS per the method, not water"
+MLDB-000569,MLDB-000566,buffer_class: absent -> Phosphate,10.1016/j.jinorgbio.2025.113198,Ir-FA,0.59,"medium is PBS per the method, not water"
+MLDB-000569,MLDB-000566,halide_type: absent -> Cl,10.1016/j.jinorgbio.2025.113198,Ir-FA,0.59,"medium is PBS per the method, not water"
+MLDB-000569,MLDB-000566,halide_conc_mM: 0 -> 140,10.1016/j.jinorgbio.2025.113198,Ir-FA,0.59,"medium is PBS per the method, not water"
+MLDB-004407,MLDB-004382,value_relation: = -> <,10.1039/d6dt00689b,Ru-bpy-O4,-3,"upper bound (not detected in octanol), not a measured value"
+MLDB-004407,MLDB-004382,value_raw: -3.00 -> <-3,10.1039/d6dt00689b,Ru-bpy-O4,-3,"upper bound (not detected in octanol), not a measured value"
+MLDB-004408,MLDB-004383,value_relation: = -> <,10.1039/d6dt00689b,Ru-bpy-O3,-3,"upper bound (not detected in octanol), not a measured value"
+MLDB-004408,MLDB-004383,value_raw: -3.00 -> <-3,10.1039/d6dt00689b,Ru-bpy-O3,-3,"upper bound (not detected in octanol), not a measured value"
+MLDB-000643,MLDB-000639,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-],10.1016/j.molstruc.2024.138997,RC1,-2.81,logP measured on the chloride salt
+MLDB-000644,MLDB-000640,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-],10.1016/j.molstruc.2024.138997,RC2,0.25,logP measured on the chloride salt
+MLDB-000645,MLDB-000641,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-],10.1016/j.molstruc.2024.138997,RC3,0.53,logP measured on the chloride salt
+MLDB-000095,MLDB-000093,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-],10.1002/chem.201500561,VR52,-3.85,logP measured on the chloride salt
+MLDB-000096,MLDB-000094,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-].[Cl-],10.1002/chem.201500561,VR54,-1.9,logP measured on the chloride salt
+MLDB-000097,MLDB-000095,counterion: F[P-](F)(F)(F)(F)F -> [Cl-],10.1002/chem.201500561,VR63,-2.24,logP measured on the chloride salt
+MLDB-001319,MLDB-001315,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-],10.1039/d0sc03008b,[Os(phen)3]2+,-1.697,logP measured on the chloride salt
+MLDB-001320,MLDB-001316,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-],10.1039/d0sc03008b,Os-0T,-2.243,logP measured on the chloride salt
+MLDB-001321,MLDB-001317,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-],10.1039/d0sc03008b,Os-1T,-0.794,logP measured on the chloride salt
+MLDB-001322,MLDB-001318,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-],10.1039/d0sc03008b,Os-2T,-0.341,logP measured on the chloride salt
+MLDB-001323,MLDB-001319,counterion: F[P-](F)(F)(F)(F)F.F[P-](F)(F)(F)(F)F -> [Cl-].[Cl-],10.1039/d0sc03008b,Os-3T,0.726,logP measured on the chloride salt
+MLDB-003735,MLDB-003718,aqueous_phase: 20 mM phosphate buffer -> 20 mM phosphate buffer + 4 mM Cl-,10.1016/j.jinorgbio.2017.12.017,2,-2.4,medium label without the chloride concentration
+MLDB-003736,MLDB-003719,aqueous_phase: 20 mM phosphate buffer -> 20 mM phosphate buffer + 4 mM Cl-,10.1016/j.jinorgbio.2017.12.017,3,-1.4,medium label without the chloride concentration
+MLDB-003737,MLDB-003720,aqueous_phase: 20 mM phosphate buffer -> 20 mM phosphate buffer + 24 mM Cl-,10.1016/j.jinorgbio.2017.12.017,2,-1.6,medium label without the chloride concentration
+MLDB-003738,MLDB-003721,aqueous_phase: 20 mM phosphate buffer -> 20 mM phosphate buffer + 24 mM Cl-,10.1016/j.jinorgbio.2017.12.017,3,-1.16,medium label without the chloride concentration
+MLDB-003739,MLDB-003722,aqueous_phase: 20 mM phosphate buffer -> 20 mM phosphate buffer + 100 mM Cl-,10.1016/j.jinorgbio.2017.12.017,2,-1.16,medium label without the chloride concentration
+MLDB-003740,MLDB-003723,aqueous_phase: 20 mM phosphate buffer -> 20 mM phosphate buffer + 100 mM Cl-,10.1016/j.jinorgbio.2017.12.017,3,-0.97,medium label without the chloride concentration
+MLDB-004467,MLDB-004441,value: 1.21 -> 1.02,10.1016/j.jinorgbio.2025.113080,Ru-1,1.21,"value from Table 1, not from the range in the text"
+MLDB-004467,MLDB-004441,value_raw: 1.21 -> 1.02 ± 0.07,10.1016/j.jinorgbio.2025.113080,Ru-1,1.21,"value from Table 1, not from the range in the text"
+MLDB-004467,MLDB-004441,std:  -> 0.07,10.1016/j.jinorgbio.2025.113080,Ru-1,1.21,"value from Table 1, not from the range in the text"
+MLDB-004468,MLDB-004442,value: 0.32 -> 1.21,10.1016/j.jinorgbio.2025.113080,Ru-2,0.32,"value from Table 1, not from the range in the text"
+MLDB-004468,MLDB-004442,value_raw: 0.32 -> 1.21 ± 0.05,10.1016/j.jinorgbio.2025.113080,Ru-2,0.32,"value from Table 1, not from the range in the text"
+MLDB-004468,MLDB-004442,std:  -> 0.05,10.1016/j.jinorgbio.2025.113080,Ru-2,0.32,"value from Table 1, not from the range in the text"
+MLDB-000509,MLDB-000506,halide_conc_mM: 140 -> 102,10.1016/j.jinorgbio.2022.112058,1,-1.73,"modified PBS of the article: 15 mM phosphate, 102 mM chloride"
+MLDB-000509,MLDB-000506,buffer_conc_mM:  -> 15,10.1016/j.jinorgbio.2022.112058,1,-1.73,"modified PBS of the article: 15 mM phosphate, 102 mM chloride"
+MLDB-000510,MLDB-000507,halide_conc_mM: 140 -> 102,10.1016/j.jinorgbio.2022.112058,2,1.48,"modified PBS of the article: 15 mM phosphate, 102 mM chloride"
+MLDB-000510,MLDB-000507,buffer_conc_mM:  -> 15,10.1016/j.jinorgbio.2022.112058,2,1.48,"modified PBS of the article: 15 mM phosphate, 102 mM chloride"
+MLDB-002406,MLDB-002392,abbreviation_in_the_article: 2 -> 1,10.1039/d2md00394e,2,1.166,numbering of the paper
+MLDB-002407,MLDB-002393,abbreviation_in_the_article: 3 -> 2,10.1039/d2md00394e,3,-1.477,numbering of the paper
+MLDB-002408,MLDB-002394,abbreviation_in_the_article: 4 -> 3,10.1039/d2md00394e,4,1.17,numbering of the paper
+MLDB-002137,MLDB-002123,value: 1.19 -> 1.60,10.1021/acs.jmedchem.5c00086,Pt-BisDHA,1.19,values swapped in the main text; SI Table S2 and the discussion
+MLDB-002137,MLDB-002123,value_raw: 1.19 ± 0.06 -> 1.60 ± 0.07,10.1021/acs.jmedchem.5c00086,Pt-BisDHA,1.19,values swapped in the main text; SI Table S2 and the discussion
+MLDB-002137,MLDB-002123,std: 0.06 -> 0.07,10.1021/acs.jmedchem.5c00086,Pt-BisDHA,1.19,values swapped in the main text; SI Table S2 and the discussion
+MLDB-002138,MLDB-002124,value: 1.6 -> 1.19,10.1021/acs.jmedchem.5c00086,Pt-DHA,1.6,values swapped in the main text; SI Table S2 and the discussion
+MLDB-002138,MLDB-002124,value_raw: 1.60 ± 0.07 -> 1.19 ± 0.06,10.1021/acs.jmedchem.5c00086,Pt-DHA,1.6,values swapped in the main text; SI Table S2 and the discussion
+MLDB-002138,MLDB-002124,std: 0.07 -> 0.06,10.1021/acs.jmedchem.5c00086,Pt-DHA,1.6,values swapped in the main text; SI Table S2 and the discussion
+MLDB-001079,MLDB-001075,value: 0.3 -> -0.30,10.1039/c4mt00034j,2,0.3,sign lost: -0.30 in the paper (order 3 < 2 < 1)
+MLDB-001079,MLDB-001075,value_raw: 0.30 ± 0.01 -> -0.30 ± 0.01,10.1039/c4mt00034j,2,0.3,sign lost: -0.30 in the paper (order 3 < 2 < 1)
+MLDB-001080,MLDB-001076,aqueous_phase: 300 mM NaI -> 300 mM NaCl,10.1039/c4mt00034j,3,-0.57,chloride complex partitioned in 0.3 M NaCl
+MLDB-001080,MLDB-001076,halide_type: I -> Cl,10.1039/c4mt00034j,3,-0.57,chloride complex partitioned in 0.3 M NaCl
+MLDB-002212,MLDB-002198,smiles_complex: CC(=O)[O-]->[Pt+2]12(<-[NH2][C@H]3CCCC[C@@H]3[NH2]->1)(<-[O-]C(=O)CCCc1ccccc1)<-[n]1cccc3c(C)c(C)c4ccc[n]->2c4c31 -> CC(=O)[O-]->[Pt+4]12(<-[NH2][C@H]3CCCC[C@@H]3[NH2]->1)(<-[O-]C(=O)CCCc1ccccc1)<-[n]1cccc3c(C)c(C)c4ccc[n]->2c4c31,10.1021/acs.jmedchem.9b00489,6,-1.37,"Pt(IV) dication, not a neutral Pt(II) complex"
+MLDB-002212,MLDB-002198,complex_charge: 0 -> 2,10.1021/acs.jmedchem.9b00489,6,-1.37,"Pt(IV) dication, not a neutral Pt(II) complex"
+MLDB-002213,MLDB-002199,smiles_complex: CCCCCCCC(=O)[O-]->[Pt+2]12(<-[NH2][C@H]3CCCC[C@@H]3[NH2]->1)(<-[O-]C(C)=O)<-[n]1cccc3c(C)c(C)c4ccc[n]->2c4c31 -> CCCCCCCC(=O)[O-]->[Pt+4]12(<-[NH2][C@H]3CCCC[C@@H]3[NH2]->1)(<-[O-]C(C)=O)<-[n]1cccc3c(C)c(C)c4ccc[n]->2c4c31,10.1021/acs.jmedchem.9b00489,7,-0.75,"Pt(IV) dication, not a neutral Pt(II) complex"
+MLDB-002213,MLDB-002199,complex_charge: 0 -> 2,10.1021/acs.jmedchem.9b00489,7,-0.75,"Pt(IV) dication, not a neutral Pt(II) complex"
+MLDB-002214,MLDB-002200,smiles_complex: CCCCCCCC(=O)[O-]->[Pt+2]12(<-[NH2][C@H]3CCCC[C@@H]3[NH2]->1)(<-[O-]C(=O)CCCc1ccccc1)<-[n]1cccc3c(C)c(C)c4ccc[n]->2c4c31 -> CCCCCCCC(=O)[O-]->[Pt+4]12(<-[NH2][C@H]3CCCC[C@@H]3[NH2]->1)(<-[O-]C(=O)CCCc1ccccc1)<-[n]1cccc3c(C)c(C)c4ccc[n]->2c4c31,10.1021/acs.jmedchem.9b00489,8,0.01,"Pt(IV) dication, not a neutral Pt(II) complex"
+MLDB-002214,MLDB-002200,complex_charge: 0 -> 2,10.1021/acs.jmedchem.9b00489,8,0.01,"Pt(IV) dication, not a neutral Pt(II) complex"
+MLDB-002214,MLDB-002200,counterion:  -> O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F,10.1021/acs.jmedchem.9b00489,8,0.01,"Pt(IV) dication, not a neutral Pt(II) complex"
+MLDB-002618,MLDB-002601,std:  -> 0.01,10.1039/c4dt03679d,Cisplatin,-2.36,SD from Table 3
+MLDB-002618,MLDB-002601,value_raw: -2.36 -> -2.36 ± 0.01,10.1039/c4dt03679d,Cisplatin,-2.36,SD from Table 3
+MLDB-002619,MLDB-002602,std:  -> 0.03,10.1039/c4dt03679d,3a,-0.01,SD from Table 3
+MLDB-002619,MLDB-002602,value_raw: -0.01 -> -0.01 ± 0.03,10.1039/c4dt03679d,3a,-0.01,SD from Table 3
+MLDB-002620,MLDB-002603,std:  -> 0.02,10.1039/c4dt03679d,3b,0.53,SD from Table 3
+MLDB-002620,MLDB-002603,value_raw: 0.53 -> 0.53 ± 0.02,10.1039/c4dt03679d,3b,0.53,SD from Table 3
+MLDB-002621,MLDB-002604,std:  -> 0.07,10.1039/c4dt03679d,3c,0.56,SD from Table 3
+MLDB-002621,MLDB-002604,value_raw: 0.56 -> 0.56 ± 0.07,10.1039/c4dt03679d,3c,0.56,SD from Table 3
+MLDB-002622,MLDB-002605,std:  -> 0.05,10.1039/c4dt03679d,3d,0.15,SD from Table 3
+MLDB-002622,MLDB-002605,value: 0.15 -> 0.1512,10.1039/c4dt03679d,3d,0.15,SD from Table 3
+MLDB-002622,MLDB-002605,value_raw: 0.15 -> 0.1512 ± 0.05,10.1039/c4dt03679d,3d,0.15,SD from Table 3
+MLDB-002623,MLDB-002606,std:  -> 0.06,10.1039/c4dt03679d,3e,-1.96,SD from Table 3
+MLDB-002623,MLDB-002606,value_raw: -1.96 -> -1.96 ± 0.06,10.1039/c4dt03679d,3e,-1.96,SD from Table 3
+MLDB-002080,,removed,10.1002/anie.201810361,cP-(OH)₂,-2.12,"value reused from 10.1021/jm300580y, not re-measured"
+MLDB-002081,,removed,10.1002/anie.201810361,cP-(OBz)₂,1.01,"value reused from 10.1021/jm300580y, not re-measured"
+MLDB-004244,,removed,10.1016/j.ejmech.2014.04.001,1a,-0.14,"precursor value reused from 10.1002/ejic.201201411, not re-measured"
+MLDB-004245,,removed,10.1016/j.ejmech.2014.04.001,1a',-0.34,"precursor value reused from 10.1002/ejic.201201411, not re-measured"
+MLDB-004246,,removed,10.1016/j.ejmech.2014.04.001,1b,-0.4,"precursor value reused from 10.1002/ejic.201201411, not re-measured"
+MLDB-004247,,removed,10.1016/j.ejmech.2014.04.001,1b',-0.4,"precursor value reused from 10.1002/ejic.201201411, not re-measured"
+MLDB-002041,,removed,10.1016/s0162-0134(03)00149-1,[PtIV(dach)(OPr)4],0.18,reference value cited from 10.1021/jm9904250
+MLDB-002042,,removed,10.1016/s0162-0134(03)00149-1,JM216,0.1,reference value cited from 10.1021/jm9904250
+MLDB-004835,,removed,10.1007/s00775-012-0889-9,Oxaliplatin,-1.76,value from 10.1016/j.jinorgbio.2011.02.005 (previously studied complexes)
+MLDB-004836,,removed,10.1007/s00775-012-0889-9,2,-1.28,value from 10.1016/j.jinorgbio.2011.02.005 (previously studied complexes)
+MLDB-004837,,removed,10.1007/s00775-012-0889-9,3,-0.68,value from 10.1016/j.jinorgbio.2011.02.005 (previously studied complexes)
+MLDB-004838,,removed,10.1007/s00775-012-0889-9,4,-0.28,value from 10.1016/j.jinorgbio.2011.02.005 (previously studied complexes)
+MLDB-004839,,removed,10.1007/s00775-012-0889-9,5,0.42,value from 10.1016/j.jinorgbio.2011.02.005 (previously studied complexes)
+MLDB-001836,,removed,10.1016/j.jinorgbio.2011.02.005,Cisplatin,-2.53,"identical to 10.1054/bjoc.1999.1026, taken from the literature"
+MLDB-001837,,removed,10.1016/j.jinorgbio.2011.02.005,Carboplatin,-2.3,"identical to 10.1054/bjoc.1999.1026, taken from the literature"
+MLDB-000004,,removed,10.1002/anie.202016456,"R,R-1",1.45,"literature value (SI Table S2, footnote a) from 10.1038/nchem.2918"
+MLDB-000009,,removed,10.1002/anie.202016456,"R,R-4",0.3,"literature value (SI Table S2, footnote a) from 10.1038/nchem.2918"
+MLDB-001912,,removed,10.1016/j.ejmech.2011.09.006,R1,-0.81,"reference complex, logP from ref. 22 of the paper (not measured)"
+MLDB-001917,,removed,10.1016/j.ejmech.2011.09.006,R2,1.69,"reference complex, logP from ref. 22 of the paper (not measured)"
+MLDB-000216,,removed,10.1002/elps.201700443,NKP-1339,0.27,"literature value (Table 2, ref. 55) from 10.1021/acs.inorgchem.6b00359"
+MLDB-000570,,removed,10.1016/j.jinorgbio.2025.113198,Ir-NH2,0.32,"same group, identical to 10.1016/j.ica.2025.122601"
+MLDB-001548,,removed,10.1016/j.jinorgbio.2015.12.003,[Pt(dach)(OH)2(ox)],-2.38,"same group, identical to 10.1016/j.jinorgbio.2014.07.004"
+MLDB-004728,,removed,10.1002/aoc.7865,Satraplatin,-0.11,"same group, identical to 10.1016/j.jinorgbio.2024.112515"
+MLDB-004409,,removed,10.1039/d6dt00689b,[Ru(bpy)3]2+,-2,"same group, value from 10.1021/acs.inorgchem.5c03244, not measured here"
+MLDB-002409,,removed,10.1039/d2md00394e,2,1.107,logD derived from the same experiment as the logP record
+MLDB-002410,,removed,10.1039/d2md00394e,3,-1.497,logD derived from the same experiment as the logP record
+MLDB-002411,,removed,10.1039/d2md00394e,4,1.158,logD derived from the same experiment as the logP record
+MLDB-003895,,removed,10.1002/cmdc.202300347,P3,-1.5,"same group, identical to 10.1002/cmdc.201700240"
+MLDB-003902,,removed,10.1002/cmdc.202300347,P3,-1.1,"same group, identical to 10.1002/cmdc.201700240"
+MLDB-003900,,removed,10.1002/cmdc.202300347,D3,1.4,"same group, identical to 10.1002/cmdc.201700240"
+MLDB-003907,,removed,10.1002/cmdc.202300347,D3,1.9,"same group, identical to 10.1002/cmdc.201700240"
+MLDB-002131,,removed,10.1016/j.jinorgbio.2003.09.004,Carboplatin,-1.398,"same group, identical to 10.1016/s0162-0134(97)00109-8"
