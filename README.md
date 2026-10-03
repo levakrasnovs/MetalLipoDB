@@ -1,5 +1,7 @@
 # MetalLipoDB
 
+![MetalLipoDB](docs/toc.png)
+
 Code and data for the article *Beyond Organic Molecules: MetalLipoDB, a Lipophilicity
 Dataset for Metal Complexes and Machine Learning Benchmarks*.
 
