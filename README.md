@@ -26,8 +26,6 @@ directory. The figures are written to `figures/`.
 | Path | Content |
 |---|---|
 | `data/MetalLipoDB.csv` | The dataset, identical to the Zenodo file (MD5 `1e059644c5e16c42fe9b60cb293b9d55`) |
-| `data/release_v1/` | First upload (`MetalLipoDB_v1.0.csv`), the corrections applied to it (`CHANGELOG.csv`) and the mapping of record identifiers (`record_id_map.csv`) |
-| `data/release_corrections.py` | Applies the corrections to the first upload and writes `data/MetalLipoDB.csv` |
 | `data/get_sangster.py` | Downloads SangsterLogP |
 | `train/` | Machine learning models, validation folds, out-of-fold predictions and metrics (see [train/README.md](train/README.md)) |
 | `plots/` | Analyses and figures of the article |

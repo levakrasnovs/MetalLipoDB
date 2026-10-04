@@ -72,7 +72,7 @@ not report the quantity; `absent` (in text columns only) means it is confirmed t
 
 | Column | Description |
 |---|---|
-| `record_id` | Identifier `MLDB-000001` … `MLDB-005158`, one per measurement. The mapping to the identifiers of the first, withdrawn upload is given in `release_v1/record_id_map.csv`. |
+| `record_id` | Identifier `MLDB-000001` … `MLDB-005158`, one per measurement. |
 
 ### Structure
 
