@@ -64,5 +64,9 @@ Code: MIT. Data: CC BY 4.0.
 
 ## Citation
 
-If you use MetalLipoDB, please cite the article (reference will be added on publication)
-and the dataset ([10.5281/zenodo.23084573](https://doi.org/10.5281/zenodo.23084573)).
+If you use MetalLipoDB, please cite:
+
+Krasnov, L.; Malikov, D.; Kiseleva, M. A.; Lvov, A.; Tatarin, S. V.; Bezzubov, S. I.
+Beyond Organic Molecules: MetalLipoDB, a Lipophilicity Data Set for Metal Complexes and
+Machine Learning Benchmarks. *J. Chem. Inf. Model.* **2026**.
+[https://doi.org/10.1021/acs.jcim.6c03597](https://doi.org/10.1021/acs.jcim.6c03597)
